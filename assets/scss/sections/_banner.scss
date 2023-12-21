@@ -446,7 +446,7 @@
             }
             &_subtitle {
                 &_text {   
-                    padding: 10px 40px;
+                    padding: 10px 0px;
                     color: #131313;
                     font-size: 16px;
                     font-weight: 400;
@@ -616,4 +616,19 @@
 
         }
     }
+}
+.banner-2__panel_top {
+    &_right_icon {
+        cursor: pointer;
+    }
+    &_left_icon {
+        cursor: pointer;
+    }
+}
+.banner-13__panel_bottom {
+    gap: 20px;
+    display: flex;
+}
+.banner-2__panel_bottom {
+    gap: 20px;
 }

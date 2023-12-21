@@ -73,6 +73,7 @@ input {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+  gap: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -286,6 +287,14 @@ input {
     align-items: center;
     height: 20.4px;
   }
+}
+
+.header__center-2_text {
+  cursor: pointer;
+}
+
+.header__center-1_icon_text {
+  cursor: pointer;
 }
 
 .banner__left {
@@ -774,7 +783,7 @@ input {
   }
 }
 .banner-2__comment__titles_subtitle_text {
-  padding: 10px 40px;
+  padding: 10px 0px;
   color: #131313;
   font-size: 16px;
   font-weight: 400;
@@ -959,4 +968,20 @@ input {
     font-weight: 700;
     line-height: 127.273%;
   }
+}
+
+.banner-2__panel_top_right_icon {
+  cursor: pointer;
+}
+.banner-2__panel_top_left_icon {
+  cursor: pointer;
+}
+
+.banner-13__panel_bottom {
+  gap: 20px;
+  display: flex;
+}
+
+.banner-2__panel_bottom {
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
